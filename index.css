@@ -1,0 +1,582 @@
+body{
+    background-color: rgba(8, 8, 8, 0.918);
+    color: white;
+    display: flex;
+
+}
+aside{
+    width: 25%;
+    position: sticky;
+    top: 0px;
+    height: 98vh;
+    float: left;
+    border: 2px solid  rgb(0, 133, 221);;
+    border-radius: 10px;
+}
+.pic{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 10%;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 2px solid blue;
+    
+}
+main{
+    width: 70%;
+    margin-left: 5px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+#access1{
+    width: 70%;
+}
+#home{
+    text-align: center;
+    animation-name: slideleft;
+    animation-duration: 3s;
+}
+#introborder3, #introborder4, #introborder5{
+    display: none;
+    width: 60%;
+    border: 2px solid orange;
+    background-color: rgba(0, 0, 0, 0.966);
+    border-radius: 10px;
+    height: 80vh;
+    margin-left: 5px;
+}
+#topNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(20, 20, 20, 0.342);
+    backdrop-filter: blur(4px);
+    margin: auto;
+    margin-top: 2px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#nav2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(20, 20, 20, 0.342);
+    backdrop-filter: blur(4px);
+    margin-bottom: 7px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: none;
+}
+.toplinks{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(221, 154, 66);
+}
+.introborder{
+    border:2px solid orange;
+    width:auto;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 5px grey ;
+    padding: 1px;
+    display: flow-root;
+}
+.intro, .intro2{
+    animation-name: slidetop;
+    animation-duration: 3s;
+}
+.skillintro{
+    animation-name: slidetop;
+    animation-duration: 3s;
+}
+.skillintro{
+    text-align: center;
+}
+.left{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    
+    padding: 3px;
+}
+.intro, .intro2{
+    text-align:start;
+}
+.right{
+    width:48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: picleft;
+    animation-duration: 3s;
+    height: 240px;
+    margin: auto;
+    margin-top: 13px; 
+}
+.welcomePic{
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid blue; 
+}
+.left2{
+    float: left;
+    width:48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: picright;
+    animation-duration: 3s;
+    height: 440px;
+    margin: auto;
+    margin-top: 13px;
+}
+.right2{
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    height: 455px;
+    overflow: auto;
+}
+.skills{
+    border: 3px solid;
+    border-radius: 10px;
+    animation-name: loading;
+    animation-duration: 3s;
+}
+.skills div{
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+.pic2{
+    width: 50%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid blue;
+}
+.first{
+    width: 80%;
+}
+.second{
+    width: 85%;
+}
+.third{
+    width: 70%;
+}
+.fourth{
+    width: 75%;
+}
+.fifth{
+    width:60%;
+}
+#change{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: none;
+}
+.inlines{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.picture{
+    width:152px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inline{
+    width: 160px;
+}
+.inline:hover .picture{
+    width: 160px;
+
+}
+.preview{
+    text-align: center;
+}
+.testContain{
+    border:2px solid orange;
+    width:40%;
+    border-radius: 10px;
+    display: flow-root;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+#testPic{
+    width: 135px;
+    border-radius: 10px;
+    margin-left: 12%;
+    margin: 0;
+    
+}
+.testGrid{
+    border:2px solid orange;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.picContain{
+    text-align:right;
+}
+.picContain2{
+    text-align: left;
+}
+#back{
+    border: 0;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.resume{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(221, 154, 66);
+}
+.navbuttons:hover .toplinks{
+    color: rgb(255, 255, 255);
+}
+.resume:hover{
+    color: rgb(214, 172, 117);
+}
+#home::first-letter{
+    font-size: 60px;
+    font-style: italic;
+}
+.introborder:hover{
+    box-shadow: 2px 2px 10px  rgb(122, 122, 240);
+}
+.testGrid:hover{
+    box-shadow: 2px 2px 10px  rgb(122, 122, 240);
+}
+form:hover{
+    box-shadow: 2px 2px 10px  rgb(122, 122, 240);
+}
+#myName{
+    text-align: center;
+    width: 60%;
+    margin: 0;
+    margin-left: 10%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    background-color: rgb(65, 64, 64);
+}
+#myName2{
+    text-align: center;
+    width: 80%;
+    margin: 0;
+    margin-left: 8%;
+    border-radius: 20px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(65, 64, 64);
+}
+.location2{
+    text-align: center;
+    font-family:monospace;
+    margin: 0;
+    margin-bottom: 4px;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 14px;
+    background-color: rgb(65, 64, 64);
+}
+.location2 a{
+    color:rgb(10, 198, 231);
+}
+.sidetext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;
+    padding: 5px;
+    height: 145px;
+    width: 70%;
+}
+.sidetext a{
+    color:rgb(10, 198, 231);
+    display: block;
+    text-decoration:none;
+    font-size: 17px;
+    padding-bottom: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sidetext2{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+form{
+    border:2px solid orange;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px grey ;
+}
+#userDetails, #userDetails2, #usermsg{
+    width: 95%;
+    background-color: rgba(192, 187, 187, 0.068);
+    color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+#userDetails, #userDetails2{
+    height: 25px;
+}
+#usermsg{
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    display: block;
+    font-size: large;
+}
+#send{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#sendbtn{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(0, 133, 221);
+    color: white;
+    border: none;
+    width:65px;
+    height: 30px;
+    border-radius: 5px;
+}
+#sendbtn:active{
+    background-color: rgb(108, 172, 214);
+    width:70px;
+}
+.scroll{
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+    padding: 5px;
+}
+.projectPic{
+    width: 35%;
+    border-radius: 5px;
+}
+#icons img{
+    width: 20px;
+}
+#innericons{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:380px){
+    .picture{
+        width: 180px;
+    }
+}
+@media screen and (min-width:1712px){
+    .right{
+        height: auto;
+    }
+}
+@media screen and (min-width:600px){
+    .welcomePic, .pic2{
+        width: 58%;
+    }
+}
+@media screen and (min-width:1281px){
+    .welcomePic{
+        width: 48%;
+    }
+}
+@media screen and (max-height:400px){
+    #introborder3, #introborder4, #introborder5{
+        height: auto;
+        width: 95%;
+    }
+}
+@media screen and (max-height:400px){
+    .sidetext{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .right{
+        height: 155px;
+    }
+}
+@media screen and (max-width:600px){
+    .sidetext{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px){
+    .projectPic{
+        width: 170px;
+    }
+}
+@media screen and (max-width:600px){
+    aside, main{
+        width: 96%;
+    }
+}
+@media screen and (max-width: 600px) {
+    aside{
+        position: relative;
+        height: 257px;
+        margin-bottom: 10px;   
+    }
+}
+@media screen and (width: 344px) {
+    aside{
+        position: relative;
+        height: 273px;
+        margin-bottom: 10px;   
+    }
+}
+@media screen and (max-width: 600px) {
+    body{   
+        display: flex;
+        flex-direction: column;
+   
+    }
+}
+@media screen and (max-width: 600px) {
+    #topNav{
+        display: none;
+    } 
+}
+@media screen and (max-width:600px){
+    .pic, .sidetext{
+        display: inline-block;
+    }
+}
+@media screen and (max-width:600px) {
+    .welcomePic, .pic2{
+        width:140px;
+    }
+}
+@media screen and (max-width:600px) {
+    .pic{
+        width: 160px;
+        
+    }
+}
+@media screen and (max-width:600px) {
+    .location2{
+        text-align: center;
+        width: 100%;
+
+    }
+}
+@media screen and (max-width:600px){
+    #introborder3, #introborder4, #introborder5{
+        width: 98%;
+        height: 55vh;
+        margin-bottom: 70px;
+    }
+}
+@media screen and (max-width:915px) {
+    .left2{
+        display: none;
+    }
+}
+@media screen and (max-width:915px) {
+    .right2{
+        width: 100%;
+        height: 485px
+    }
+}
+@media screen and (max-width:1025px){
+    .testContain{
+        width: 91%;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:700px) {
+    .intro2{
+        display: none;
+    }  
+}
+@media screen and (width:667px){
+    .right{
+        height: auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    #nav2{
+        display: block;  
+        display: flex;
+        justify-content: space-evenly;
+        width: 95%;
+        position: fixed;
+        bottom: 0px;
+        background-color: rgba(20, 20, 20, 0.342);
+        backdrop-filter: blur(4px);
+        margin-bottom: 7px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;      
+    }
+}
+@media screen and (min-width:600px){
+    #myName2{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    #myName{
+        display: none;
+    }
+}
+@keyframes slidetop{
+    from{
+        transform: translateY(40%);
+    }
+}
+@keyframes slideleft{
+    from{
+        transform: translateX(40%);
+    }
+}
+@keyframes picleft{
+    from{
+        transform: translateX(20%);
+    }
+}
+@keyframes picright{
+    from{
+        transform: translateX(-20%);
+    }
+}
+@keyframes loading{
+    from{transform: translateX(0);}
+    from{transform: scaleX(0);}
+}
